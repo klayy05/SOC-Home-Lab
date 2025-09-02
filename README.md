@@ -15,8 +15,7 @@ The goal was to gain hands-on experience with SIEM administration, detection eng
 - **Ubuntu VM (Monitored Endpoint)** → endpoint monitored with **Wazuh Agent installed here**.
 - **Wazuh Cloud (SIEM)** → centralized logging, correlation, and alerting.
   
-  ![Architecture Diagram](architecture-diagram.png)
-
+ ![Architecture Diagram](architecture-diagram.png)
 
 **Architecture flow**:
 ```plaintext
