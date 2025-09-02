@@ -14,8 +14,11 @@ The goal was to gain hands-on experience with SIEM administration, detection eng
 - **Kali Linux VM** → attacker machine (used for brute force, privilege escalation, and scanning tests).
 - **Ubuntu VM (Monitored Endpoint)** → endpoint monitored with **Wazuh Agent installed here**.
 - **Wazuh Cloud (SIEM)** → centralized logging, correlation, and alerting.
+  
+  ![Architecture Diagram](architecture-diagram.png)
 
-**Architecture Workflow**:
+
+**Architecture flow**:
 ```plaintext
 [Kali Linux (Attacker)]  →  [Ubuntu VM (Monitored Endpoint + Wazuh Agent)]  →  [Wazuh Cloud SIEM Dashboard]
 
