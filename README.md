@@ -17,11 +17,18 @@ The goal was to gain hands-on experience with SIEM administration, detection eng
   
  ![Architecture Diagram](architecture-diagram.png)
 
-**Architecture flow**:
+**Architecture Flow**:
 ```plaintext
 [Kali Linux (Attacker)]  →  [Ubuntu VM (Monitored Endpoint + Wazuh Agent)]  →  [Wazuh Cloud SIEM Dashboard]
+```
 
+**Tools & Technologies**
 
+- Kali Linux – adversary simulation (brute force, scanning, privilege escalation).
+- Ubuntu Server – monitored endpoint.
+- Wazuh Agent – installed on Ubuntu to forward logs.
+- Wazuh Cloud – SIEM for log correlation and alerting.
+- MITRE ATT&CK – mapped detections to adversary techniques.
 
 
 
